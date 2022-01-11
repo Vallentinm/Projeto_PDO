@@ -1,2 +1,7 @@
 Teste para commit lvl 1
 Commit incial concluido, lvl 2 iniciando
+Subir projeto
+-Fazer alteração
+git add .
+git commit -m "mensagem de commit"
+git push origin main
