@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: url(bck_initial.jpg) no-repeat center top fixed;
+    background: url(\img\bck_initial.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,7 +13,6 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-
 h3{
     color: white;
   }
@@ -22,7 +21,6 @@ h3{
   border: 1px solid black;
   text-align: center;;
   }
-
 button {
   background-color: white;
   border: none;
@@ -35,7 +33,6 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-
 }
 .p{
     color: white;
