@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>   
 <head>
-  <link rel="stylesheet" href="assets\css\index.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
   <title>Login</title>
 </head> 
 <body>
@@ -19,7 +19,6 @@ session_start();
           endif;
           unset($_SESSION['nao_autenticado']);
           ?>
-
           <!-- Div do form de login--> 
   <div class="conteiner">
     <h3 class="text">Faça seu Login</h3>
