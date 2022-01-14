@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: url(\img\bck_initial.jpg) no-repeat center top fixed;
+    background-image: url("../img/bck_initial.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,7 +11,7 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    box-sizing: border-box; 
   }
 h3{
     color: white;
