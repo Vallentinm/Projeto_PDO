@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('con_banco.php');
- /* Aquela merda de notificação de tiver usuario em blanck ou errado*/
+
 if(empty($_POST['usuario']) || empty($_POST['senha'])) {
 	header('Location:index.php');
 	exit();
