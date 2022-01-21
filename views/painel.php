@@ -12,7 +12,7 @@ include('veri_login.php');
 </head>
 <body>
 <div class="navbar">
-  <a href="painel.php">Pagina Inicial</a>
+  <a href="painel.php">Pagina 2Inicial</a>
   <a href="pag_inf_relat.php">Relatórios</a>
   <div class="subnav">
   </div> 
