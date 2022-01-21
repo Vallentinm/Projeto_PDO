@@ -9,10 +9,11 @@ include('veri_login.php');
   <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../assets/css/painel.css">
+  <link rel="stylesheet" href="../assets/css/Padrao.css">
 </head>
 <body>
 <div class="navbar">
-  <a href="painel.php">Pagina 2Inicial</a>
+  <a href="painel.php">Pagina Inicial</a>
   <a href="pag_inf_relat.php">Relatórios</a>
   <div class="subnav">
   </div> 
