@@ -1,7 +1,7 @@
 <?php
   session_start();
-  include('verifica_login.php');
-  include('conexao.php');
+  include('../Config/veri_login.php');
+  include('../Config/con_banco.php');
 ?>
 <!DOCTYPE html>
 <html>

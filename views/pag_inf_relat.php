@@ -1,7 +1,7 @@
 <?php
 session_start();
-include('veri_login.php');
-include('con_banco.php');
+include('../Config/veri_login.php');
+include('../Config/con_banco.php');
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('veri_login.php');
+include('../Config/veri_login.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,7 +21,7 @@ include('veri_login.php');
     <button class="subnavbtn">Cadastro <i class="fa fa-caret-down"></i></button>
     <div class="subnav-content">
       <a href="pag_cad_emp.php">Empresa</a>
-      <a href="pag_cad_equip.php">Equipamento</a>
+      <a href="../views/pag_cad_equip.php">Equipamento</a>
       <a href="pag_cad_func.php">Funcionario</a>
       <a href="pag_cad_cc.php">Departamento</a>
       <a href="#express">Fornecedor</a>

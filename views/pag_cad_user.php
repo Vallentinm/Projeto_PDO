@@ -98,7 +98,7 @@
     </div>
     
     <div class="container signin">
-      <p>Você ja tem uma conta ? <a href="/teste/Index.php">Acessar</a>.</p>
+      <p>Você ja tem uma conta ? <a href="../index.php">Acessar</a>.</p>
     </div>
   </form>
   <script>
