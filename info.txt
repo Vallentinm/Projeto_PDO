@@ -1,5 +1,0 @@
-exemplo: 
-cad_user_banco
-
-Determinação:
-função_informação_onde?
