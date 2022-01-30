@@ -1,0 +1,14 @@
+{
+    "name": "caiocucena/crlamigavel",
+    "description": "Este Arquivo simplsimente deixa as URL's amigavel",
+    "authors": [
+        {
+            "name": "Caio Lucena",
+            "email": "caio.hlucena@hotmail.com",
+            "role": "owner"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.6"
+    }
+}
