@@ -31,7 +31,7 @@ session_start();
         </div>
        <div>
   </div>
-  <a class="link" href="../views/pag_cad_user.php" target="_blank"> Cadastrar-se</a>
+  <a class="link" href="/painel" target="_blank"> Cadastrar-se</a>
  </div>
 </body>
 
