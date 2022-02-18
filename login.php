@@ -3,7 +3,7 @@ session_start();
 include('./Config/con_banco.php');
 
 if(empty($_POST['Name']) || empty($_POST['Psw'])) {
-	header('Location:index.php');
+	header('Location:/login');
 	exit();
 }
  
@@ -24,7 +24,7 @@ if($row == 1) {
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
-	header('Location:index.php');
+	header('Location:/login');
 	exit();
 }
 ?>

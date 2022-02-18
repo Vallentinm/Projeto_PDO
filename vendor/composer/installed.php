@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'bfba9261f07e62983d71150eeb41ba47f81f73ae',
+        'reference' => '329d61a7e974788004c51d5881e89ee1a1cc0998',
         'name' => 'caiocucena/crlamigavel',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'bfba9261f07e62983d71150eeb41ba47f81f73ae',
+            'reference' => '329d61a7e974788004c51d5881e89ee1a1cc0998',
             'dev_requirement' => false,
         ),
         'doctrine/cache' => array(
@@ -231,6 +231,21 @@
             'aliases' => array(),
             'reference' => '522144f0c4c004c80d56fa47e40e17028e2eefc2',
             'dev_requirement' => false,
+        ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => 'v5.0.2',
+            'version' => '5.0.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'reference' => '688bce4fa695cc360a0d084e34f029b0c192b223',
+            'dev_requirement' => false,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v5.0.2',
+            ),
         ),
     ),
 );

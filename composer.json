@@ -9,6 +9,12 @@
         }
     ],
     "require": {
-        "doctrine/orm": "^2.6"
+        "doctrine/orm": "^2.6",
+        "twbs/bootstrap": "5.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "C:\\xampp\\htdocs\\www\\Projeto_PDO": "src/"
+        }
     }
 }
